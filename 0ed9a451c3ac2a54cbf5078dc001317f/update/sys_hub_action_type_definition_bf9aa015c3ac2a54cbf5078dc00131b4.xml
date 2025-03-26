@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>cb5b1af9c3ef9250cbf5078dc00131db</copied_from>
+        <copied_from_name>Get Any ServiceNow Info</copied_from_name>
+        <description>Dynamic ServiceNow information retrieval tool that enables access to any ServiceNow table data through REST API calls. This tool provides flexible querying capabilities for accessing user details, task information, and all related ServiceNow records.</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>copy_of_get_any_servicenow_info</internal_name>
+        <label_cache>[{"name":"{{action.resource_path}}","label":"action➛Resource Path","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sysparm_query}}","label":"action➛sysparm_query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sysparm_fields}}","label":"action➛sysparm_fields","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a10cdc0a-ceae-4b57-9ffc-25c51257f04d].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Copy of Get Any ServiceNow Info</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf9aa015c3ac2a54cbf5078dc00131b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Get Any ServiceNow Info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_bf9aa015c3ac2a54cbf5078dc00131b4</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:02</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=bf9aa015c3ac2a54cbf5078dc00131b4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bf9aa015c3ac2a54cbf5078dc00131b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>bf9aa015c3ac2a54cbf5078dc00131b4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:02</sys_created_on>
+        <sys_id>8caae015c3ac2a54cbf5078dc0013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:02</sys_updated_on>
+        <value>{"serializationFormat":"JSON","version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDc0aae01585ac2a5442752849edcec032":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc0aae01585ac2a5442752849edcec032.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"9b5b8c6c-4957-48a1-a07c-747156f582b6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc0aae01585ac2a5442752849edcec032\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">84aae015c3ac2a54cbf5078dc0013144</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>bf9aa015c3ac2a54cbf5078dc00131b4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:02</sys_created_on>
+        <sys_id>c8aae015c3ac2a54cbf5078dc0013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:02</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">40aae015c3ac2a54cbf5078dc0013148</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4^id=bf9aa015c3ac2a54cbf5078dc00131b4"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=bf9aa015c3ac2a54cbf5078dc00131b4^sys_idNOT IN4caaa015c3ac2a54cbf5078dc00131e8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Get Any ServiceNow Info">bf9aa015c3ac2a54cbf5078dc00131b4</action>
+        <cid>a10cdc0a-ceae-4b57-9ffc-25c51257f04d</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>4caaa015c3ac2a54cbf5078dc00131e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4caaa015c3ac2a54cbf5078dc00131e8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>00aae015c3ac2a54cbf5078dc001312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>04aae015c3ac2a54cbf5078dc001312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>0caae015c3ac2a54cbf5078dc001312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>48aae015c3ac2a54cbf5078dc001312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>4caae015c3ac2a54cbf5078dc001312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>84aae015c3ac2a54cbf5078dc001312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>88aae015c3ac2a54cbf5078dc001312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>695ea671c3e3d250cbf5078dc00131e3</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>c0aae015c3ac2a54cbf5078dc001312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>https://emprwpinnovate.service-now.com/</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>c4aae015c3ac2a54cbf5078dc001312b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4caaa015c3ac2a54cbf5078dc00131e8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>c8aae015c3ac2a54cbf5078dc001312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_4caaa015c3ac2a54cbf5078dc00131e8^id=4caaa015c3ac2a54cbf5078dc00131e8"/>
+    <sys_element_mapping action="delete_multiple" query="id=4caaa015c3ac2a54cbf5078dc00131e8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>c0aae015c3ac2a54cbf5078dc001312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>48aae015c3ac2a54cbf5078dc001311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>84aae015c3ac2a54cbf5078dc001311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>4caae015c3ac2a54cbf5078dc001311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>48aae015c3ac2a54cbf5078dc001312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>c0aae015c3ac2a54cbf5078dc001311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>00aae015c3ac2a54cbf5078dc001311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>88aae015c3ac2a54cbf5078dc001311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>84aae015c3ac2a54cbf5078dc001312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"sysparm_query","value":"{{action.sysparm_query}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"sysparm_fields","value":"{{action.sysparm_fields}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>00aae015c3ac2a54cbf5078dc001311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>api/now/table/{{action.resource_path}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>4caaa015c3ac2a54cbf5078dc00131e8</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>c4aae015c3ac2a54cbf5078dc001311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=4caaa015c3ac2a54cbf5078dc00131e8"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=4caaa015c3ac2a54cbf5078dc00131e8"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4caaa015c3ac2a54cbf5078dc00131e8^sys_idNOT IN8caaa015c3ac2a54cbf5078dc00131ff"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c6e40ba3-39a4-482a-a034-389cf1c043a5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">4caaa015c3ac2a54cbf5078dc00131e8</model>
+        <model_id>4caaa015c3ac2a54cbf5078dc00131e8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4caaa015c3ac2a54cbf5078dc00131e8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>8caaa015c3ac2a54cbf5078dc00131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4caaa015c3ac2a54cbf5078dc00131e8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4caaa015c3ac2a54cbf5078dc00131e8^sys_idNOT IN08aae015c3ac2a54cbf5078dc0013103"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_4caaa015c3ac2a54cbf5078dc00131e8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>08aae015c3ac2a54cbf5078dc0013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=bf9aa015c3ac2a54cbf5078dc00131b4^sys_idNOT IN00aaa015c3ac2a54cbf5078dc00131d1,379aa015c3ac2a54cbf5078dc00131c8,f79aa015c3ac2a54cbf5078dc00131cd"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=98c5e7be-3966-4853-bdce-6594a3c02bab</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysparm_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysparm_fields</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Get Any ServiceNow Info">bf9aa015c3ac2a54cbf5078dc00131b4</model>
+        <model_id>bf9aa015c3ac2a54cbf5078dc00131b4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>00aaa015c3ac2a54cbf5078dc00131d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=00aaa015c3ac2a54cbf5078dc00131d1"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5025da03-38e9-4e54-b8ba-efe97509ec6f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>resource_path</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Resource Path</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Get Any ServiceNow Info">bf9aa015c3ac2a54cbf5078dc00131b4</model>
+        <model_id>bf9aa015c3ac2a54cbf5078dc00131b4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:00</sys_created_on>
+        <sys_id>379aa015c3ac2a54cbf5078dc00131c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=379aa015c3ac2a54cbf5078dc00131c8"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e25c72c0-7db0-4d37-a6bd-747d80c2fcbd</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysparm_query</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysparm_query</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Get Any ServiceNow Info">bf9aa015c3ac2a54cbf5078dc00131b4</model>
+        <model_id>bf9aa015c3ac2a54cbf5078dc00131b4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>f79aa015c3ac2a54cbf5078dc00131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f79aa015c3ac2a54cbf5078dc00131cd"/>
+    <sys_hub_action_output action="delete_multiple" query="model=bf9aa015c3ac2a54cbf5078dc00131b4^sys_idNOT IN04aae015c3ac2a54cbf5078dc0013133,40aae015c3ac2a54cbf5078dc0013148,84aae015c3ac2a54cbf5078dc0013144"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=07857c7a-6d77-4925-9718-a9d6135877dc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Copy of Get Any ServiceNow Info">bf9aa015c3ac2a54cbf5078dc00131b4</model>
+        <model_id>bf9aa015c3ac2a54cbf5078dc00131b4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>04aae015c3ac2a54cbf5078dc0013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=04aae015c3ac2a54cbf5078dc0013133"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=04aae015c3ac2a54cbf5078dc0013133"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=8ed602cd-2159-47d9-9cc8-8abac8de2650,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Get Any ServiceNow Info">bf9aa015c3ac2a54cbf5078dc00131b4</model>
+        <model_id>bf9aa015c3ac2a54cbf5078dc00131b4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>40aae015c3ac2a54cbf5078dc0013148</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=40aae015c3ac2a54cbf5078dc0013148"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=40aae015c3ac2a54cbf5078dc0013148"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc0aae01585ac2a5442752849edcec032</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0ed9a451c3ac2a54cbf5078dc001317f</scope_name>
+        <serialized_content>{"FlowDesigner:FDc0aae01585ac2a5442752849edcec032":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc0aae01585ac2a5442752849edcec032.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"9b5b8c6c-4957-48a1-a07c-747156f582b6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc0aae01585ac2a5442752849edcec032\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4aae015c3ac2a54cbf5078dc0013132</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:02</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDc0aae01585ac2a5442752849edcec032,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=9b5b8c6c-4957-48a1-a07c-747156f582b6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of Get Any ServiceNow Info">bf9aa015c3ac2a54cbf5078dc00131b4</model>
+        <model_id>bf9aa015c3ac2a54cbf5078dc00131b4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>84aae015c3ac2a54cbf5078dc0013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84aae015c3ac2a54cbf5078dc0013144"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=84aae015c3ac2a54cbf5078dc0013144"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bf9aa015c3ac2a54cbf5078dc00131b4"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=bf9aa015c3ac2a54cbf5078dc00131b4^sys_idNOT INc0aae015c3ac2a54cbf5078dc0013155"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of Get Any ServiceNow Info">bf9aa015c3ac2a54cbf5078dc00131b4</action_type_id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:02</sys_created_on>
+        <sys_id>c0aae015c3ac2a54cbf5078dc0013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:02</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c0aae015c3ac2a54cbf5078dc0013155"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_bf9aa015c3ac2a54cbf5078dc00131b4^sys_idNOT IN04aaa015c3ac2a54cbf5078dc00131e0,3f9aa015c3ac2a54cbf5078dc00131cc,44aaa015c3ac2a54cbf5078dc00131d0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysparm_fields</element>
+        <help/>
+        <hint/>
+        <label>sysparm_fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>04aaa015c3ac2a54cbf5078dc00131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>resource_path</element>
+        <help/>
+        <hint/>
+        <label>Resource Path</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>3f9aa015c3ac2a54cbf5078dc00131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysparm_query</element>
+        <help/>
+        <hint/>
+        <label>sysparm_query</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>44aaa015c3ac2a54cbf5078dc00131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_bf9aa015c3ac2a54cbf5078dc00131b4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4^sys_idNOT IN04aae015c3ac2a54cbf5078dc001314d,84aae015c3ac2a54cbf5078dc0013147,c8aae015c3ac2a54cbf5078dc0013143"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>04aae015c3ac2a54cbf5078dc001314d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>84aae015c3ac2a54cbf5078dc0013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>variable</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:40:01</sys_created_on>
+        <sys_id>c8aae015c3ac2a54cbf5078dc0013143</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:40:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_bf9aa015c3ac2a54cbf5078dc00131b4"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=bf9aa015c3ac2a54cbf5078dc00131b4"/>
+</record_update>

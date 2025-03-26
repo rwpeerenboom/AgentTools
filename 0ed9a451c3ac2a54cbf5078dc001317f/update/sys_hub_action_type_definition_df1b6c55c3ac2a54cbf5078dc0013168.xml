@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>390d0fc9c3e3da10cbf5078dc0013127</copied_from>
+        <copied_from_name>AI Agent - Get Details of Incide</copied_from_name>
+        <description>AI Agent action used to get the details of an incident</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>copy_of_ai_agent__get_details_of_incident</internal_name>
+        <label_cache>[{"name":"{{action.incident_number}}","label":"action➛Incident Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[48758a03-3288-4bb2-97e2-41558f54e004].__step_status__}}","label":"step➛Script step➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[48758a03-3288-4bb2-97e2-41558f54e004].content}}","label":"step➛Script step➛Content","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"3e4ccfff-a865-468c-a082-6577450d3ed9"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Copy of AI Agent - Get Details of Incident</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df1b6c55c3ac2a54cbf5078dc0013168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of AI Agent - Get Details of Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_df1b6c55c3ac2a54cbf5078dc0013168</sys_update_name>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:10</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=df1b6c55c3ac2a54cbf5078dc0013168"/>
+    <sys_variable_value action="delete_multiple" query="document_key=df1b6c55c3ac2a54cbf5078dc0013168"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>df1b6c55c3ac2a54cbf5078dc0013168</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>171b6c55c3ac2a54cbf5078dc00131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">571b6c55c3ac2a54cbf5078dc00131ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>df1b6c55c3ac2a54cbf5078dc0013168</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>d71b6c55c3ac2a54cbf5078dc00131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <value>{"serializationFormat":"JSON","version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD5f1b6c555dac2a5482a1b928561ea5a1":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD5f1b6c555dac2a5482a1b928561ea5a1.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4a30acd2-e8c1-4f71-8ebf-786a4f7486bc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD5f1b6c555dac2a5482a1b928561ea5a1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">9b1b6c55c3ac2a54cbf5078dc00131a7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=df1b6c55c3ac2a54cbf5078dc0013168"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>content</field>
+        <id>df1b6c55c3ac2a54cbf5078dc0013168</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>931b6c55c3ac2a54cbf5078dc00131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</table>
+        <value>{{step[48758a03-3288-4bb2-97e2-41558f54e004].content}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>df1b6c55c3ac2a54cbf5078dc0013168</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>df1b6c55c3ac2a54cbf5078dc00131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>df1b6c55c3ac2a54cbf5078dc0013168</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>1f1b6c55c3ac2a54cbf5078dc00131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=df1b6c55c3ac2a54cbf5078dc0013168^sys_idNOT INdb1b6c55c3ac2a54cbf5078dc001317c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of AI Agent - Get Details of Incident">df1b6c55c3ac2a54cbf5078dc0013168</action>
+        <cid>48758a03-3288-4bb2-97e2-41558f54e004</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>db1b6c55c3ac2a54cbf5078dc001317c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=db1b6c55c3ac2a54cbf5078dc001317c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>db1b6c55c3ac2a54cbf5078dc001317c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>531b6c55c3ac2a54cbf5078dc001319d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>db1b6c55c3ac2a54cbf5078dc001317c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>9b1b6c55c3ac2a54cbf5078dc001319d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    var text = "";&#13;
+    var ctGR = new GlideRecord("incident");&#13;
+    ctGR.addQuery('number', inputs.number);&#13;
+    ctGR.query();&#13;
+    if (ctGR.next()) {&#13;
+        text = "Incident number: " + ctGR.getValue('number') + "\n\n";&#13;
+        text += "Short Description: " + ctGR.getValue('short_description') + "\n\n";&#13;
+        text += "Description: " + ctGR.getValue('description') + "\n\n";&#13;
+        text += "State: " + ctGR.getDisplayValue('state') + "\n\n";&#13;
+        text += "Priority: " + ctGR.getDisplayValue('priority') + "\n\n";&#13;
+        text += "Caller: " + ctGR.getDisplayValue('caller_id') + '\n\n';&#13;
+        text += "Assigned To: " + ctGR.getDisplayValue('assigned_to') + '\n\n';&#13;
+        text += "Sys ID: " + ctGR.getUniqueValue() + '\n\n';&#13;
+        var documentId = ctGR.getValue("sys_id");&#13;
+&#13;
+        // Get journal entry with closing notes&#13;
+        var journalGR = new GlideRecord('sys_journal_field');&#13;
+        journalGR.addQuery("element_id", documentId);&#13;
+        journalGR.orderBy("sys_created_on");&#13;
+        journalGR.query();&#13;
+        text += "Incident activity";&#13;
+        var idx = 1;&#13;
+        while (journalGR.next()) {&#13;
+            text += "\n" + idx + ". " + journalGR.getValue("value");&#13;
+            idx++;&#13;
+        }&#13;
+        outputs.content = text;&#13;
+    } else {&#13;
+        outputs.content = "Unable to fetch requested incident record.";&#13;
+    }&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=db1b6c55c3ac2a54cbf5078dc001317c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>db1b6c55c3ac2a54cbf5078dc001317c</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>1b1b6c55c3ac2a54cbf5078dc001319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <id>db1b6c55c3ac2a54cbf5078dc001317c</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>971b6c55c3ac2a54cbf5078dc001319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_db1b6c55c3ac2a54cbf5078dc001317c</table>
+        <value>{{action.incident_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>db1b6c55c3ac2a54cbf5078dc001317c</id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>df1b6c55c3ac2a54cbf5078dc001319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_db1b6c55c3ac2a54cbf5078dc001317c^id=db1b6c55c3ac2a54cbf5078dc001317c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=db1b6c55c3ac2a54cbf5078dc001317c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=db1b6c55c3ac2a54cbf5078dc001317c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=db1b6c55c3ac2a54cbf5078dc001317c^sys_idNOT IN531b6c55c3ac2a54cbf5078dc0013181"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>number</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">db1b6c55c3ac2a54cbf5078dc001317c</model>
+        <model_id>db1b6c55c3ac2a54cbf5078dc001317c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_db1b6c55c3ac2a54cbf5078dc001317c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>531b6c55c3ac2a54cbf5078dc0013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=db1b6c55c3ac2a54cbf5078dc001317c^sys_idNOT IN1f1b6c55c3ac2a54cbf5078dc0013185"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3e4ccfff-a865-468c-a082-6577450d3ed9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>content</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Content</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">db1b6c55c3ac2a54cbf5078dc001317c</model>
+        <model_id>db1b6c55c3ac2a54cbf5078dc001317c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_db1b6c55c3ac2a54cbf5078dc001317c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>1f1b6c55c3ac2a54cbf5078dc0013185</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=db1b6c55c3ac2a54cbf5078dc001317c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_db1b6c55c3ac2a54cbf5078dc001317c^sys_idNOT IN931b6c55c3ac2a54cbf5078dc0013189"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>content</element>
+        <help/>
+        <hint/>
+        <label>Content</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_db1b6c55c3ac2a54cbf5078dc001317c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>931b6c55c3ac2a54cbf5078dc0013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=df1b6c55c3ac2a54cbf5078dc0013168^sys_idNOT IN171b6c55c3ac2a54cbf5078dc001316f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eeee04e8-fae5-47aa-af4f-b9b2ad1aae54</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>incident_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Incident Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of AI Agent - Get Details of Incident">df1b6c55c3ac2a54cbf5078dc0013168</model>
+        <model_id>df1b6c55c3ac2a54cbf5078dc0013168</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_df1b6c55c3ac2a54cbf5078dc0013168</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>171b6c55c3ac2a54cbf5078dc001316f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=171b6c55c3ac2a54cbf5078dc001316f"/>
+    <sys_hub_action_output action="delete_multiple" query="model=df1b6c55c3ac2a54cbf5078dc0013168^sys_idNOT IN571b6c55c3ac2a54cbf5078dc00131ab,9b1b6c55c3ac2a54cbf5078dc00131a7,9f1b6c55c3ac2a54cbf5078dc00131a2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=a97e4e1b-d008-42f6-a689-f9f13f4f3a19,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of AI Agent - Get Details of Incident">df1b6c55c3ac2a54cbf5078dc0013168</model>
+        <model_id>df1b6c55c3ac2a54cbf5078dc0013168</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>571b6c55c3ac2a54cbf5078dc00131ab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=571b6c55c3ac2a54cbf5078dc00131ab"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=571b6c55c3ac2a54cbf5078dc00131ab"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD5f1b6c555dac2a5482a1b928561ea5a1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0ed9a451c3ac2a54cbf5078dc001317f</scope_name>
+        <serialized_content>{"FlowDesigner:FD5f1b6c555dac2a5482a1b928561ea5a1":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD5f1b6c555dac2a5482a1b928561ea5a1.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4a30acd2-e8c1-4f71-8ebf-786a4f7486bc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD5f1b6c555dac2a5482a1b928561ea5a1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>531b6c55c3ac2a54cbf5078dc00131a2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:10</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD5f1b6c555dac2a5482a1b928561ea5a1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4a30acd2-e8c1-4f71-8ebf-786a4f7486bc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of AI Agent - Get Details of Incident">df1b6c55c3ac2a54cbf5078dc0013168</model>
+        <model_id>df1b6c55c3ac2a54cbf5078dc0013168</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>9b1b6c55c3ac2a54cbf5078dc00131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b1b6c55c3ac2a54cbf5078dc00131a7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b1b6c55c3ac2a54cbf5078dc00131a7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d852bf0c-a83e-42cb-bbb4-7384958f5620</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>content</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Content</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of AI Agent - Get Details of Incident">df1b6c55c3ac2a54cbf5078dc0013168</model>
+        <model_id>df1b6c55c3ac2a54cbf5078dc0013168</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>9f1b6c55c3ac2a54cbf5078dc00131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9f1b6c55c3ac2a54cbf5078dc00131a2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9f1b6c55c3ac2a54cbf5078dc00131a2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=df1b6c55c3ac2a54cbf5078dc0013168"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=df1b6c55c3ac2a54cbf5078dc0013168^sys_idNOT IN5f1b6c55c3ac2a54cbf5078dc00131b8"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of AI Agent - Get Details of Incident">df1b6c55c3ac2a54cbf5078dc0013168</action_type_id>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>5f1b6c55c3ac2a54cbf5078dc00131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=5f1b6c55c3ac2a54cbf5078dc00131b8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_df1b6c55c3ac2a54cbf5078dc0013168^sys_idNOT IN9b1b6c55c3ac2a54cbf5078dc0013173"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>incident_number</element>
+        <help/>
+        <hint/>
+        <label>Incident Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_df1b6c55c3ac2a54cbf5078dc0013168</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>9b1b6c55c3ac2a54cbf5078dc0013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_df1b6c55c3ac2a54cbf5078dc0013168"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168^sys_idNOT IN1b1b6c55c3ac2a54cbf5078dc00131b0,9b1b6c55c3ac2a54cbf5078dc00131aa,df1b6c55c3ac2a54cbf5078dc00131a6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>1b1b6c55c3ac2a54cbf5078dc00131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>9b1b6c55c3ac2a54cbf5078dc00131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>content</element>
+        <help/>
+        <hint/>
+        <label>Content</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>robert.peerenboom</sys_created_by>
+        <sys_created_on>2025-03-26 17:42:09</sys_created_on>
+        <sys_id>df1b6c55c3ac2a54cbf5078dc00131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AgentTools" source="x_snc_agenttools">0ed9a451c3ac2a54cbf5078dc001317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AgentTools">0ed9a451c3ac2a54cbf5078dc001317f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>robert.peerenboom</sys_updated_by>
+        <sys_updated_on>2025-03-26 17:42:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_df1b6c55c3ac2a54cbf5078dc0013168"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=df1b6c55c3ac2a54cbf5078dc0013168"/>
+</record_update>
